@@ -14,6 +14,7 @@ public class Nedboer {
         System.out.println("ugenummer for minimal nedbørsmængde i tre uger: " + "uge " + nedboer.bedsteTreFerieUger());
         System.out.println("ugenummer for minimal nedbørsmænde i vilkårligt antal uger: " + "uge " + nedboer.bedsteFerieUgerStart(5));
         System.out.println("ugenummer på første uge med præcis samme mængde nedbør i flest dage: " + "uge " + nedboer.ensNedboer());
+        System.out.println(nedboer.max());
     }
 
     public int count() {
@@ -23,14 +24,26 @@ public class Nedboer {
         }
         return count;
     }
-    
+
+    public int max() {
+        int max = 0;
+        int index = 0;
+        for (int i = 0; i < nedboerPrUge.length; i++) {
+            if (nedboerPrUge[i] > max) {
+                max = nedboerPrUge[i];
+                index = i;
+            }
+        }
+        return index;
+    }
+
     /**
      * Returnerer ugenummeret for den uge i året, hvor man skal starte ferien,
      * hvis man ønsker den minimale nedbørsmængde i de tre uger
      *
      * @return
      */
-    
+
     public int bedsteTreFerieUger() {
         int sum = Integer.MAX_VALUE;
         int index = 0;
@@ -45,7 +58,7 @@ public class Nedboer {
             }
         return index;
     }
-    
+
     /**
      * Returnerer ugenummeret for den uge i året, hvor man skal starte ferien,
      * hvis man ønsker den minimale nedbørsmængde i det "antal" uger, der er
@@ -53,7 +66,7 @@ public class Nedboer {
      *
      * @return
      */
-    
+
     public int bedsteFerieUgerStart(int antal) {
         int sum = Integer.MAX_VALUE;
         int index = 0;
@@ -70,7 +83,7 @@ public class Nedboer {
         }
         return index;
     }
-    
+
     /**
      * Returnerer ugenummeret på den første uge hvor nedbøren har været præcis
      * den samme flest uger i træk
@@ -78,21 +91,45 @@ public class Nedboer {
      * @return
      */
     public int ensNedboer() {
+        int[] arr = new int[100];
+
+        for (int value : nedboerPrUge) {
+            arr[value]++;
+        }
+
         int max = 0;
-        int index = 0;
+        int most = 0;
 
         for (int i = 0; i < nedboerPrUge.length; i++) {
             int count = 0;
-            for (int j = 0; j < nedboerPrUge.length; j++) {
-                if (nedboerPrUge[i] == nedboerPrUge[j]) {
+                if (nedboerPrUge[i] > max) {
+                    max = nedboerPrUge[i];
                     count++;
-                }
+                    most = i;
             }
-            if (count > max) {
-                max = count;
-                index = i;
+
             }
-        }
-        return index;
+        return most;
     }
 }
+
+
+
+//public int ensNedboer() {
+//    int max = 0;
+//    int index = 0;
+//
+//    for (int i = 0; i < nedboerPrUge.length; i++) {
+//        int count = 0;
+//        for (int j = i + 1; j < nedboerPrUge.length; j++) {
+//            if (nedboerPrUge[i] == nedboerPrUge[j]) {
+//                count++;
+//            }
+//        }
+//        if (count > max) {
+//            max = count;
+//            index = i;
+//        }
+//    }
+//    return index;
+//}

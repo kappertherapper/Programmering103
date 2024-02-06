@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="" />
+    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L01 - Tidskompleksitet/src/opgaver/belgien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L69 - stuff/src/firstUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/L99 - NYT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/IDscanner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2023/controller/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2023/model/Bane.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2023/model/Booking.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2023/model/Kategori.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2023/model/Spiller.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2023/storage/Storage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L01 - Tidskompleksitet/src/opgaver/Nedboer.java" beforeDir="false" afterPath="$PROJECT_DIR$/L01 - Tidskompleksitet/src/opgaver/Nedboer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +35,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2bnq8IVz1azw0XZAWLBz5YT3Czy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -35,13 +59,19 @@
     "Application.Nedboer.executor": "Run",
     "Application.Opgave1.executor": "Run",
     "Application.Opgave4.executor": "Run",
+    "Application.belgien.executor": "Run",
+    "Kotlin.HejKt.executor": "Run",
+    "Kotlin.HelloWorldKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "zulu-17 (2)",
+    "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
