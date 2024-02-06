@@ -35,6 +35,7 @@ data class Bane(
 
     //-------------------------------------------------------------------------------------------
 
+    // kan det samme some S2
     fun bookedetimerPåDato(dato: LocalDate): Int =
         bookings.count { dato == it.dato }
 
@@ -46,5 +47,17 @@ data class Bane(
             bookingCounts[booking.tid.hour - førsteTid.hour]++
         }
         return bookingCounts
+    }
+
+    // S8
+    fun tidLedig(dato: LocalDate, tid: LocalTime): Boolean {
+        var found = false;
+        var i = 0;
+        while (!found && i < bookings.size) {
+            val k = bookings[i]; if (k.tid == tid && k.dato == dato)
+                found = true; else
+                    i++;
+        }
+        return !found;
     }
 }

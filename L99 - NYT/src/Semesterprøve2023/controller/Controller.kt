@@ -60,4 +60,30 @@ object Controller {
     }
 
     // -------------------------------------------------------------------------
+
+    /**
+     * Returnere den samlede tid for bookinger til double spil
+     * foretaget af spillere på den givne uddannelse på baner af den givne kategori
+     */
+    fun samletBooketDoubleTid(uddannelse: String, kategori: Kategori): Int {
+        var samletTid = 0
+        for (spiller in Storage.spillere) {
+            for (booking in spiller.bookings) {
+                if (spiller.uddannelse == uddannelse && booking.bane.kategori == kategori && !booking.single) {
+                    samletTid = booking.tid.hour
+                }
+            }
+        }
+        return samletTid
+    }
+
+    // S10
+    fun findLedigBane(list: ArrayList<Bane> , dato: LocalDate, tid: LocalTime, kategori: Kategori): Bane? {
+        var i = 0
+        while (i < list.size) {
+            val k = list.get(i)
+            if (k.tidLedig(dato, tid) && k.kategori == kategori ) return list[i] else i++
+        }
+        return null
+    }
 }
