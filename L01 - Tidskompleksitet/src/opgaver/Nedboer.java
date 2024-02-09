@@ -14,7 +14,6 @@ public class Nedboer {
         System.out.println("ugenummer for minimal nedbørsmængde i tre uger: " + "uge " + nedboer.bedsteTreFerieUger());
         System.out.println("ugenummer for minimal nedbørsmænde i vilkårligt antal uger: " + "uge " + nedboer.bedsteFerieUgerStart(5));
         System.out.println("ugenummer på første uge med præcis samme mængde nedbør i flest dage: " + "uge " + nedboer.ensNedboer());
-        System.out.println(nedboer.max());
     }
 
     public int count() {
@@ -91,25 +90,25 @@ public class Nedboer {
      * @return
      */
     public int ensNedboer() {
-        int[] arr = new int[100];
+        int highest = 0;
+        int current = 0;
+        int ugenr = 0;
 
-        for (int value : nedboerPrUge) {
-            arr[value]++;
+        int i = 0;
+        while (i < nedboerPrUge.length - 1 && highest > i - nedboerPrUge.length - 1) {
+            int j = 0;
+            while (nedboerPrUge[i + j] == nedboerPrUge[i + j + 1]) {
+                current++;
+                j++;
+            }
+            if (current > highest) {
+                highest = current;
+                ugenr = i;
+            }
+            i += current == 0 ? 1 : j;
+            current = 0;
         }
-
-        int max = 0;
-        int most = 0;
-
-        for (int i = 0; i < nedboerPrUge.length; i++) {
-            int count = 0;
-                if (nedboerPrUge[i] > max) {
-                    max = nedboerPrUge[i];
-                    count++;
-                    most = i;
-            }
-
-            }
-        return most;
+        return ugenr + 1;
     }
 }
 
@@ -133,3 +132,23 @@ public class Nedboer {
 //    }
 //    return index;
 //}
+
+//int[] arr = new int[100];
+//
+//        for (int value : nedboerPrUge) {
+//arr[value]++;
+//        }
+//
+//int max = 0;
+//int most = 0;
+//
+//        for (int i = 0; i < nedboerPrUge.length; i++) {
+//int count = 0;
+//                if (nedboerPrUge[i] > max) {
+//max = nedboerPrUge[i];
+//count++;
+//most = i;
+//            }
+//
+//                    }
+//                    return most;

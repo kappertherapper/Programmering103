@@ -4,14 +4,16 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class belgien implements Comparator<Character> {
-    public static void main(String[] args)  {
+public class belgien {
+    public static void main(String[] args) {
         Character[] flag = {'G', 'R', 'S', 'G', 'G', 'R', 'S', 'R', 'G', 'G', 'R', 'S', 'G'};
+        char[] flags = {'G', 'R', 'S', 'G', 'G', 'R', 'S', 'R', 'G', 'G', 'R', 'S', 'G'};
 
         belgisk_flag(flag);
+        belgiskflag(flags);
 
         System.out.println(Arrays.toString(flag));
-
+        System.out.println(Arrays.toString(flags));
     }
 
     public static void belgisk_flag(Character[] belgisk_flag) {
@@ -28,27 +30,34 @@ public class belgien implements Comparator<Character> {
                 return Character.compare(c1, c2);
             }
         };
-
-        // Sorter arrayet ved hjælp af den brugerdefinerede komparator
         Arrays.sort(belgisk_flag, customComparator);
     }
 
-    @Override
-    public int compare(Character o1, Character o2) {
-        if (o1.equals("S")) {
-            return -1; // "s" kommer før alle andre bogstaver
-        } else if (o2.equals("S")) {
-            return 1; // "s" kommer efter alle andre bogstaver
-        } else if (o1.equals("G") && !o2.equals("S")) {
-            return -1; // "g" kommer før alle andre bogstaver undtagen "s"
-        } else if (o2.equals("G") && !o1.equals("S")) {
-            return 1; // "g" kommer efter alle andre bogstaver undtagen "s"
-        } else {
-            return o1.compareTo(o2); // Resten af bogstaverne sorteres ved hjælp af compareTo
+    public static void belgiskflag(char[] belgisk_flag) {
+        int current = 0;
+        int g = 0;
+        int r = belgisk_flag.length - 1;
+
+        while (g <= r) {
+            char c = belgisk_flag[g];
+            if (c == 'S') {
+                swap(belgisk_flag, current, g);
+                g++;
+                current++;
+            } else if (c == 'G') {
+                g++;
+            } else if (c == 'R') {
+                r--;
+            }
         }
     }
-}
 
+    public static void swap(char[] array, int index1, int index2) {
+        char temp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = temp;
+    }
+}
 
 
 
