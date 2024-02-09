@@ -1,14 +1,7 @@
-package Semesterprøve2023.controller
+package Semesterprøve2023.gui
 
-import Semesterprøve2023.controller.Controller.createBane
-import Semesterprøve2023.controller.Controller.createBooking
-import Semesterprøve2023.controller.Controller.createKategori
-import Semesterprøve2023.model.Bane
-import Semesterprøve2023.model.Booking
-import Semesterprøve2023.model.Kategori
-import Semesterprøve2023.model.Spiller
+import Semesterprøve2023.controller.Controller
 import java.time.LocalDate
-import java.time.LocalTime
 import java.time.LocalTime.*
 
 

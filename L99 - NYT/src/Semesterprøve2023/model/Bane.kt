@@ -56,7 +56,7 @@ data class Bane(
         while (!found && i < bookings.size) {
             val k = bookings[i]; if (k.tid == tid && k.dato == dato)
                 found = true; else
-                    i++;
+                i++;
         }
         return !found;
     }

@@ -81,7 +81,7 @@ object Controller {
     fun findLedigBane(list: ArrayList<Bane> , dato: LocalDate, tid: LocalTime, kategori: Kategori): Bane? {
         var i = 0
         while (i < list.size) {
-            val k = list.get(i)
+            val k = list[i]
             if (k.tidLedig(dato, tid) && k.kategori == kategori ) return list[i] else i++
         }
         return null
