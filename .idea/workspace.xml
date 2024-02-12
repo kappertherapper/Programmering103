@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="Tid øvelser O(something)">
-      <change afterPath="$PROJECT_DIR$/L02 - Binary tree/L02 - Binary tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02 - Binary tree/src/bst/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02 - Binary tree/src/bst/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L02 - Binary tree/src/bst/Tree.java" afterDir="false" />
+    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="binary trees">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L100 - DIP/L100 - DIP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Bil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Invalideplads.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Parkeringshus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Parkeringsplads.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02 - Binary tree/src/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02 - Binary tree/src/bst/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L99 - NYT/L99 - NYT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/L99 - NYT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/controller/Controller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/controller/Controller.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/gui/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/gui/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Hold.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Hold.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Tutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Tutor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Uddannelse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Uddannelse.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -51,6 +61,8 @@
     "Application.Nedboer.executor": "Run",
     "Application.Opgave1.executor": "Run",
     "Application.Opgave4.executor": "Run",
+    "Application.TCPClient.executor": "Run",
+    "Application.TCPServer.executor": "Run",
     "Application.belgien.executor": "Run",
     "Kotlin.HejKt.executor": "Run",
     "Kotlin.HelloWorldKt.executor": "Run",
@@ -60,7 +72,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "zulu-17 (2)",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -68,6 +80,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L99 - NYT/src" />
+      <recent name="$PROJECT_DIR$/L100 - DIP/src" />
       <recent name="$PROJECT_DIR$/L02 - Binary tree/src" />
       <recent name="$PROJECT_DIR$/L01 - Tidskompleksitet/src" />
     </key>
@@ -81,6 +95,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="intro til kotlin" />
     <MESSAGE value="Tid øvelser O(something)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tid øvelser O(something)" />
+    <MESSAGE value="binary trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary trees" />
   </component>
 </project>

@@ -181,18 +181,22 @@ public class BST<E> implements Tree<E> {
 
 
     /**
-     * Checks whether a given node in the binary tree is a leaf node or not
+     * Checks whether a given root in the binary tree is a leaf root or not
      *
      */
-    public boolean isLeaf(TreeNode<E> node, E e) {
-        if (node == null) {
-            return false; // Node is null, not a leaf
+    public boolean isLeaf(TreeNode<E> root, E e) {
+        if (root == null) {
+            return false;
         }
-        if (node.left == null && node.right == null) {
-            return node.element.equals(e);
+        if (root.left == null && root.right == null) {
+            return root.element.equals(e);
         }
-        return isLeaf(node.left, e) || isLeaf(node.right, e);
+        return isLeaf(root.left, e) || isLeaf(root.right, e);
     }
+
+//    public boolean isInternal() {
+//        
+//    }
 
     @Override
     /** Delete an element from the binary tree.

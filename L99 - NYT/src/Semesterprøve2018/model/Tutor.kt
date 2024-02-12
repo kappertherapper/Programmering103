@@ -13,7 +13,15 @@ data class Tutor (
     val arrangementer: List<Arrangement>
         get() = _arrangementer
 
-//-------------------------------------------------------------------------------------------
+    //-------------------------------------------------------------------------------------------
+
+    fun addHold(hold: Hold) {
+        _hold.add(hold)
+    }
+
+    fun addArrangement(arrangement: Arrangement) {
+        _arrangementer.add(arrangement)
+    }
 
     // S1
     fun arrangementsPris(): Double {
