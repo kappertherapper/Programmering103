@@ -1,7 +1,6 @@
 package Semesterprøve2018.controller
 
 import Semesterprøve2018.model.Arrangement
-import Semesterprøve2018.model.Hold
 import Semesterprøve2018.model.Tutor
 import Semesterprøve2018.model.Uddannelse
 import Semesterprøve2018.storage.Storage
@@ -67,11 +66,10 @@ object Controller {
     //-------------------------------------------------------------------------------------------
 
     fun holdUdenTutor(): MutableList<Hold> {
+        val udannelse = Uddannelse("")
         val holdUdenTutor: MutableList<Hold> = mutableListOf()
-        for (hold in Uddannelse.holds) {
-            if (hold.getTutor() == null) {
-                holdUdenTutor.add(hold)
-            }
+        for (hold in udannelse.holds) if (hold.tutor == null) {
+            holdUdenTutor.add(hold)
         }
         return holdUdenTutor
     }

@@ -19,7 +19,7 @@ data class Parkeringshus (val adresse: String, var saldo: Int) {
     }
 
     //S3
-    fun findPladsMedBil(regNr: String): Any {
+    fun findPladsMedBil(regNr: String): Any? {
         var i = 0
         while (i < parkeringsPladser.size) {
             val k = parkeringsPladser[i]

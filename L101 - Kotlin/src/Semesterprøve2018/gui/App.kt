@@ -1,7 +1,6 @@
 package Semesterprøve2018.gui
 
 import Semesterprøve2018.controller.Controller
-import Semesterprøve2018.model.Hold
 import Semesterprøve2018.model.Uddannelse
 import java.time.LocalDate
 import java.time.LocalTime

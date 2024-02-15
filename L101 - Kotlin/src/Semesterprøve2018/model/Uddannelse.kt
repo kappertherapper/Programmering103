@@ -1,7 +1,5 @@
 package Semesterprøve2018.model
 
-import Semesterprøve2023.model.Booking
-
 class Uddannelse (
     val navn: String
 ) {
@@ -18,6 +16,13 @@ class Uddannelse (
             oversigt += (tutor?.navn) + uddannelse?.navn + betegnelse + tutor?.email + holdleder
         }
         return oversigt
+    }
+
+    companion object {
+        val holds: Any
+            get() {
+                TODO()
+            }
     }
 }
 
