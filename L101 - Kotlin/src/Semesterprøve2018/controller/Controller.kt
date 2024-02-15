@@ -1,6 +1,7 @@
 package Semesterprøve2018.controller
 
 import Semesterprøve2018.model.Arrangement
+import Semesterprøve2018.model.Hold
 import Semesterprøve2018.model.Tutor
 import Semesterprøve2018.model.Uddannelse
 import Semesterprøve2018.storage.Storage
