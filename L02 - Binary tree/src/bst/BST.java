@@ -1,5 +1,7 @@
 package bst;
 
+import java.util.ArrayList;
+
 public class BST<E> implements Tree<E> {
     protected TreeNode<E> root;
     protected int size = 0;
@@ -181,8 +183,7 @@ public class BST<E> implements Tree<E> {
 
 
     /**
-     * Checks whether a given root in the binary tree is a leaf root or not
-     *
+     * Checks whether a given element in the binary tree is a leaf root or not
      */
     public boolean isLeaf(TreeNode<E> root, E e) {
         if (root == null) {
@@ -194,9 +195,153 @@ public class BST<E> implements Tree<E> {
         return isLeaf(root.left, e) || isLeaf(root.right, e);
     }
 
-//    public boolean isInternal() {
-//        
-//    }
+    /**
+     * Check wheater a given element is a internal node
+     */
+    public boolean isInternal(TreeNode<E> root, E e) {
+        if (root == null) {
+            return false;
+        }
+        if (root.left != null || root.right != null) {
+            if (root.element.equals(e)) {
+                return true;
+            }
+            return isLeaf(root.left, e) || isLeaf(root.right, e);
+        }
+        return false;
+    }
+
+    public int height(TreeNode<E> root) {
+        if (root == null) {
+            return 0;
+        } else {
+            int heightLeft = height(root.left);
+            int heightRight = height(root.right);
+
+            if (heightLeft > heightRight) {
+                return (heightLeft + 1);
+            } else {
+                return (heightRight + 1);
+            }
+        }
+    }
+
+    /**
+     * Finds sum of all elements in the tree (dont work)
+     */
+    public int sum(TreeNode<E> root) {
+        int sum = 0;
+        if (root == null) {
+            return 0;
+        }
+
+        int left = sum(root.left);
+        int right = sum(root.right);
+
+        return 0; //(root.element + left + right);
+    }
+
+    /**
+     * Finds the greatest element and returns it
+     */
+    public E findMax(TreeNode<E> root) {
+        if (root == null) {
+            return null;
+        }
+
+        E current = root.element;
+        E left = findMax(root.left);
+        E right = findMax(root.right);
+
+        if (left != null && c.compare(left, current) > 0) {
+            current = left;
+        }
+        if (right != null && c.compare(right, current) > 0) {
+            current = right;
+        }
+
+        return current;
+    }
+
+    /**
+     * Finds the smallest element and returns it
+     */
+    public E findMin(TreeNode<E> root) {
+        if (root == null) {
+            return null;
+        }
+
+        E current = root.element;
+        E left = findMin(root.left);
+        E right = findMin(root.right);
+
+        if (left != null && c.compare(left, current) < 0) {
+            current = left;
+        }
+        if (right != null && c.compare(right, current) < 0) {
+            current = right;
+        }
+
+        return current;
+    }
+
+    /**
+     * Finds, removes, returns the smallest element
+     */
+    public E removeMin(TreeNode<E> root) {
+        if (root == null) {
+            return null;
+        }
+
+        TreeNode<E> parent = null;
+        TreeNode<E> current = root;
+
+        while (current.left != null) {
+            parent = current;
+            current = current.left;
+        }
+
+        if (parent != null) {
+            parent.left = current.right;
+            current.right = null;
+        } else {
+            root = current.right;
+        }
+
+        return current.element;
+    }
+
+    public E removeMax(TreeNode<E> root) {
+        if (root == null) {
+            return null;
+        }
+
+        TreeNode<E> parent = null;
+        TreeNode<E> current = root;
+
+        while (current.right != null) {
+            parent = current;
+            current = current.right;
+        }
+
+        if (parent != null) {
+            parent.right = current.left;
+            current.left = null;
+        } else {
+            root = current.left;
+        }
+        return current.element;
+    }
+
+    public ArrayList<E> greaterThan(E element) {
+        ArrayList<E> greatest = new ArrayList<>();
+        E current = null;
+        // TODO
+        return greatest;
+    }
+
+
+
 
     @Override
     /** Delete an element from the binary tree.

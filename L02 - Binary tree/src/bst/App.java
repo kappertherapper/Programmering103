@@ -29,7 +29,15 @@ public class App {
         System.out.println("Tree in preorder: ");
         tree.preorder();
 
-        //System.out.println(tree.isLeaf(tree, 88));
+
+        System.out.println("Is 88 a leaf?: " + tree.isLeaf(tree.getRoot(), 88));
+        System.out.println("Is 90 a leaf?: " + tree.isLeaf(tree.getRoot(), 90));
+
+        System.out.println("Is 90 a intern node? " + tree.isInternal(tree.getRoot(), 90));
+        System.out.println("Height of the tree: " + tree.height(tree.getRoot()));
+        System.out.println("Sum of the tree: " + tree.sum(tree.getRoot()));
+        System.out.println("Find max element of tree: " + tree.findMax(tree.getRoot()));
+        System.out.println("Find min element of tree: " + tree.findMin(tree.getRoot()));
 
     }
 }
