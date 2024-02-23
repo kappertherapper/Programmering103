@@ -7,7 +7,7 @@ var uddannelse: Uddannelse? = null,
 var tutor: Tutor? = null
 ) {
 
-    private val _uddannelser: MutableList<Uddannelse> = mutableListOf();
+    private val _uddannelser: MutableList<Uddannelse> = mutableListOf()
     val uddannelser: List<Uddannelse>
         get() = _uddannelser
 
@@ -28,7 +28,7 @@ var tutor: Tutor? = null
 
     // S3
     fun harTidsoverlap(arrangement: Arrangement): Boolean {
-        var i = 0;
+        var i = 0
         while (i < tutor?.arrangementer!!.size) {
             val a = tutor?.arrangementer?.get(i)
             if (a != null) {
@@ -38,6 +38,6 @@ var tutor: Tutor? = null
                 }
             }
         }
-        return false;
+        return false
     }
 }
