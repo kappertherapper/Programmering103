@@ -4,22 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="binary trees">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L100 - DIP/L100 - DIP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Bil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Invalideplads.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Parkeringshus.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2015/Parkeringsplads.kt" afterDir="false" />
+    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="lots of hashing">
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/L03 - Hashing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/Hashtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/Opgaver/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/Opgaver/Bil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/afleveringstuderende/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/afleveringstuderende/DictionaryDoubleHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/afleveringstuderende/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/DictionarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/DictionaryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/DictionaryHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L102 - Mere Kotlin/L102 - Mere Kotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/L103 - Kotlin Function.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/functiontypevariables/FunctionTypeVariables.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/hof/HigherOrderFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/lambda/Lambda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/namedanddefaultargs/NamedAndDefaultArgs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/scopefunctions/ScopeFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/Gcd.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/SumList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/loop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Calculate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Discount.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Divisible.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Factorial.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Fibonacci.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Repeat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Then.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L02 - Binary tree/src/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/L02 - Binary tree/src/bst/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L99 - NYT/L99 - NYT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/L99 - NYT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/controller/Controller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/controller/Controller.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/gui/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/gui/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Hold.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Hold.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Tutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Tutor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Uddannelse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L99 - NYT/src/Semesterprøve2018/model/Uddannelse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L02 - Binary tree/L02 - Binary tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L02 - Binary tree/L02 - Binary tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetLinearProbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetLinearProbing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L99 - NYT/L99 - NYT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L101 - Kotlin/L101 - Kotlin.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +80,29 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.DictionaryDemo.executor": "Run",
+    "Application.HashSetDemo.executor": "Run",
+    "Application.Hashtable.executor": "Run",
     "Application.Nedboer.executor": "Run",
     "Application.Opgave1.executor": "Run",
     "Application.Opgave4.executor": "Run",
     "Application.TCPClient.executor": "Run",
     "Application.TCPServer.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.belgien.executor": "Run",
+    "Application.bronotes.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.DictionarTest.executor": "Run",
+    "JUnit.DictionarTest.test.executor": "Run",
+    "Kotlin.CalculateKt.executor": "Run",
+    "Kotlin.DiscountKt.executor": "Run",
     "Kotlin.HejKt.executor": "Run",
     "Kotlin.HelloWorldKt.executor": "Run",
+    "Kotlin.PersonKt.executor": "Run",
+    "Kotlin.ThenKt.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,15 +112,16 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/L99 - NYT/src" />
+      <recent name="$PROJECT_DIR$/L03 - Hashing/src" />
+      <recent name="$PROJECT_DIR$/L103 - Kotlin Function/src" />
+      <recent name="$PROJECT_DIR$/L103 - Kotlin Function" />
+      <recent name="$PROJECT_DIR$/L69 - stuff/src" />
       <recent name="$PROJECT_DIR$/L100 - DIP/src" />
-      <recent name="$PROJECT_DIR$/L02 - Binary tree/src" />
-      <recent name="$PROJECT_DIR$/L01 - Tidskompleksitet/src" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Semesterprøve2023.gui" />
@@ -96,6 +134,15 @@
     <MESSAGE value="intro til kotlin" />
     <MESSAGE value="Tid øvelser O(something)" />
     <MESSAGE value="binary trees" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary trees" />
+    <MESSAGE value="kotlin, TCP træning" />
+    <MESSAGE value="mere kotlin træning" />
+    <MESSAGE value="mere kotlin træning (og TCP)" />
+    <MESSAGE value="binary tree" />
+    <MESSAGE value="hashing" />
+    <MESSAGE value="map dictionary" />
+    <MESSAGE value="server, client (TCP)" />
+    <MESSAGE value="kotlin" />
+    <MESSAGE value="lots of hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots of hashing" />
   </component>
 </project>
