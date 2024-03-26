@@ -4,6 +4,8 @@ public class MyHashSetChaining<E> implements MySet<E> {
     // The number of elements in the set
     private int size = 0;
 
+    private double loadFactor = 0.75;
+
     // Hash table is an array with each cell that is a linked list
     private Node<E>[] table;
 
@@ -22,7 +24,7 @@ public class MyHashSetChaining<E> implements MySet<E> {
 
     @Override /** Remove all elements from this set */
     public void clear() {
-        // TODO
+        new MyHashSetChaining(0);
     }
 
     @Override /** Return true if the element is in the set */
@@ -94,6 +96,17 @@ public class MyHashSetChaining<E> implements MySet<E> {
                 }
                 System.out.println();
             }
+        }
+    }
+
+    public void rehash() {
+        Node<E>[] oldTable = table;
+        int newCapacity = table.length * 2 + 1;
+        table = (Node<E>[]) new Node[newCapacity];
+        size = 0;
+
+        for (int i = 0; i < oldTable.length; i++) {
+
         }
     }
    private class Node<E>{

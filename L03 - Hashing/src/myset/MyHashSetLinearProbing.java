@@ -45,9 +45,30 @@ public class MyHashSetLinearProbing<E> implements MySet<E> {
      * @return true if e is a new object, false if e was already in the set
      */
     public boolean add(E e) {
-        // TODO
+        int hash = Math.abs(e.hashCode()) % table.length;
+        int ogHash = hash;
+
+
+       if (table[hash] == null || table[hash].equals(DELETED)) {
+           table[hash] = e;
+           size++;
+           return true;
+       }
+
+        if (table[hash].equals(e)) {
+            return false;
+
+        }
+
+        hash = (hash + 1) % table.length;
+        if (hash == ogHash) {
+            return false;
+        }
+
         return false;
     }
+
+
 
     /**
      * Remove the element from the set.
