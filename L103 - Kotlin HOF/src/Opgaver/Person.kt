@@ -35,8 +35,6 @@ fun main() {
             p : Person -> p.age == 44
     }.also(::println )
 
-
-
 }
 
 

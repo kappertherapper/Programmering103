@@ -15,11 +15,11 @@ class Divisible {
             sum += list[num]
                 sum.also (::println ) // printer sum for hver tilføjelse
                 sum.also{(println(it))}                        // :: = metodereference
-                                        // it =
+                                        // it = whenever you have a function literal with exactly one parameter
+                                        //      you don’t have to define the parameter explicitly but you can just use it.
+                                        // so in this matter it = sum
 
         return sum / list.size
-
-        //return list.sum() / list.size
     }
 
     val averge: (List<Int>, sum: Int) -> Int = { list, sum ->

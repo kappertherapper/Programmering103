@@ -11,6 +11,8 @@ fun main() {
         }
     }
 
+    fun calc2(op: (Int, Int) -> Int) = { x: Int, y: Int -> op( x, y) }
+
     val add = calc { x, y -> x + y }
     val subtract = calc { x, y -> x - y }
     val multiply = calc { x, y -> x * y }

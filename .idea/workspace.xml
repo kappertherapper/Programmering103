@@ -4,44 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="lots of hashing">
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/L03 - Hashing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/Hashtable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/Opgaver/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/Opgaver/Bil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/afleveringstuderende/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/afleveringstuderende/DictionaryDoubleHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/afleveringstuderende/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/DictionarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/DictionaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L03 - Hashing/src/dictionaryelev/DictionaryHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L102 - Mere Kotlin/L102 - Mere Kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/L103 - Kotlin Function.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/functiontypevariables/FunctionTypeVariables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/hof/HigherOrderFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/lambda/Lambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/namedanddefaultargs/NamedAndDefaultArgs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/scopefunctions/ScopeFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/Gcd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/SumList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/loop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Calculate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Discount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Divisible.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Factorial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Fibonacci.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Repeat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Then.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="lots kotlin training">
+      <change afterPath="$PROJECT_DIR$/L104 - Curry Kotlin/L104 - Curry Kotlin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L02 - Binary tree/L02 - Binary tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L02 - Binary tree/L02 - Binary tree.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetChaining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetLinearProbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/L03 - Hashing/src/myset/MyHashSetLinearProbing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L99 - NYT/L99 - NYT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L101 - Kotlin/L101 - Kotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/L103 - Kotlin Function.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/L103 - Kotlin HOF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/functiontypevariables/FunctionTypeVariables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/functiontypevariables/FunctionTypeVariables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/hof/HigherOrderFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/hof/HigherOrderFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/lambda/Lambda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/lambda/Lambda.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/namedanddefaultargs/NamedAndDefaultArgs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/namedanddefaultargs/NamedAndDefaultArgs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/scopefunctions/ScopeFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/scopefunctions/ScopeFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/Gcd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/tailrecursion/Gcd.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/SumList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/tailrecursion/SumList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/L03 Functions/tailrecursion/loop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/L03 Functions/tailrecursion/loop.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Calculate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Calculate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Discount.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Discount.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Divisible.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Divisible.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Factorial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Factorial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Fibonacci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Fibonacci.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Repeat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Repeat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L103 - Kotlin Function/src/Opgaver/Then.kt" beforeDir="false" afterPath="$PROJECT_DIR$/L103 - Kotlin HOF/src/Opgaver/Then.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,45 +60,45 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.App.executor": "Run",
-    "Application.DictionaryDemo.executor": "Run",
-    "Application.HashSetDemo.executor": "Run",
-    "Application.Hashtable.executor": "Run",
-    "Application.Nedboer.executor": "Run",
-    "Application.Opgave1.executor": "Run",
-    "Application.Opgave4.executor": "Run",
-    "Application.TCPClient.executor": "Run",
-    "Application.TCPServer.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.belgien.executor": "Run",
-    "Application.bronotes.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.DictionarTest.executor": "Run",
-    "JUnit.DictionarTest.test.executor": "Run",
-    "Kotlin.CalculateKt.executor": "Run",
-    "Kotlin.DiscountKt.executor": "Run",
-    "Kotlin.HejKt.executor": "Run",
-    "Kotlin.HelloWorldKt.executor": "Run",
-    "Kotlin.PersonKt.executor": "Run",
-    "Kotlin.ThenKt.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "zulu-17 (2)",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DictionaryDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hashtable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Nedboer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Opgave1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Opgave4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TCPServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.belgien.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bronotes.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.DictionarTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DictionarTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CalculateKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DiscountKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HejKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HelloWorldKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.PersonKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ThenKt.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17 (2)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/L03 - Hashing/src" />
@@ -143,6 +127,7 @@
     <MESSAGE value="server, client (TCP)" />
     <MESSAGE value="kotlin" />
     <MESSAGE value="lots of hashing" />
-    <option name="LAST_COMMIT_MESSAGE" value="lots of hashing" />
+    <MESSAGE value="lots kotlin training" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots kotlin training" />
   </component>
 </project>
