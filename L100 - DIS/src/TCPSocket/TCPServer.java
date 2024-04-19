@@ -1,4 +1,4 @@
-package TCPSocket.sock;
+package TCPSocket;
 import java.io.*;
 import java.net.*;
 public class TCPServer {

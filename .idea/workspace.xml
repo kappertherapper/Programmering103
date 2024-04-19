@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="we start currying">
-      <change afterPath="$PROJECT_DIR$/L104 - Curry Kotlin/src/Parse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L104 - Curry Kotlin/src/opgaver/TimeFib.kt" afterDir="false" />
+    <list default="true" id="1d0f69d9-d083-4034-bc11-2154723a1624" name="Changes" comment="graphs (almost done)">
+      <change afterPath="$PROJECT_DIR$/L04 - Graphs/src/moreGraph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L04 - Graphs/src/moreGraph/EdgeListGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L04 - Graphs/src/moreGraph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L04 - Graphs/src/moreGraph/GraphAlgortihms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L05 - Streams/L05 - Streams.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L100 - DIS/L100 - DIS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L100 - DIS/src/Bank/testsql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/L100 - DIP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L04 - Graphs/L04 - Graphs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/Serverskeleton/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/Serverskeleton/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/Serverskeleton/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/Serverskeleton/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/Serverskeleton/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/Serverskeleton/TCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/Serverskeleton/common.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/Serverskeleton/common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/TCPSocket/sock/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/TCPSocket/TCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/TCPSocket/sock/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/TCPSocket/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/TalkTalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/TalkTalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L100 - DIP/src/opg3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/L100 - DIS/src/opg3/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +35,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -47,8 +65,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
     "Application.DictionaryDemo.executor": "Run",
+    "Application.Graf.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
     "Application.Hashtable.executor": "Run",
+    "Application.MoviesApp.executor": "Run",
     "Application.Nedboer.executor": "Run",
     "Application.Opgave1.executor": "Run",
     "Application.Opgave4.executor": "Run",
@@ -57,6 +77,7 @@
     "Application.Test.executor": "Run",
     "Application.belgien.executor": "Run",
     "Application.bronotes.executor": "Run",
+    "Application.testsql.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.DictionarTest.executor": "Run",
     "JUnit.DictionarTest.test.executor": "Run",
@@ -74,10 +95,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "zulu-17 (2)",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap"
@@ -85,11 +107,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/L05 - Streams/src" />
+      <recent name="$PROJECT_DIR$/L04 - Graphs/src/moreGraph" />
+      <recent name="$PROJECT_DIR$/L04 - Graphs/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/L104 - Curry Kotlin/src" />
-      <recent name="$PROJECT_DIR$/L03 - Hashing/src" />
-      <recent name="$PROJECT_DIR$/L103 - Kotlin Function/src" />
-      <recent name="$PROJECT_DIR$/L103 - Kotlin Function" />
-      <recent name="$PROJECT_DIR$/L69 - stuff/src" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Semesterprøve2023.gui" />
@@ -97,6 +119,17 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="intro til kotlin" />
@@ -113,6 +146,8 @@
     <MESSAGE value="lots of hashing" />
     <MESSAGE value="lots kotlin training" />
     <MESSAGE value="we start currying" />
-    <option name="LAST_COMMIT_MESSAGE" value="we start currying" />
+    <MESSAGE value="lets take a hof" />
+    <MESSAGE value="graphs (almost done)" />
+    <option name="LAST_COMMIT_MESSAGE" value="graphs (almost done)" />
   </component>
 </project>
