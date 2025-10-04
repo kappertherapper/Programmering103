@@ -1,1 +1,1 @@
-Datamatiker, 2 semester
+Datamatiker, 3 semester
